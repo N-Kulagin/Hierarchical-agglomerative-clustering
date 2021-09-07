@@ -245,6 +245,8 @@ namespace Голотип_N
             CombinedSimilarityMatrix = ApplyMask(CombinedSimilarityMatrix, muLimit);
 
             Write1DArray(CreateConnectionsMap(CombinedSimilarityMatrix));
+            Console.WriteLine();
+            Write1DArray(CreateConnectionsMap(CombinedSimilarityMatrix));
         }
     }
     public class LearningObject
